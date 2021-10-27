@@ -1,0 +1,38 @@
+.bg-black {
+  background-color: black;
+}
+
+.about-color {
+  background-color: #f90297;
+}
+
+.btn-hover.color-bottom {
+  background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+}
+
+.border-sombreamento {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sombra-box {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+body {
+  /* Ainda pensando em adicionar
+  background: rgb(250, 128, 208);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 128, 208, 1) 0%,
+    rgba(255, 203, 184, 1) 45%,
+    rgba(255, 137, 0, 1) 100%
+  ); */
+}
+
+.text-sombra {
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.bottom-degrade {
+  background-color: #ff32ab;
+}
