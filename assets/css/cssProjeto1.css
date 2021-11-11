@@ -36,3 +36,14 @@ body {
 .bottom-degrade {
   background-color: #ff32ab;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.padding-Text-contat {
+padding-top: 3rem;
+padding-left: 0;
+}
