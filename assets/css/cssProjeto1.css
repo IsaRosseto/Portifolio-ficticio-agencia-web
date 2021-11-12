@@ -18,7 +18,7 @@
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
-body {
+ 
   /* Ainda pensando em adicionar
   background: rgb(250, 128, 208);
   background: linear-gradient(
@@ -27,7 +27,7 @@ body {
     rgba(255, 203, 184, 1) 45%,
     rgba(255, 137, 0, 1) 100%
   ); */
-}
+
 
 .text-sombra {
   text-shadow: 0.1em 0.1em 0.2em black;
@@ -46,4 +46,16 @@ body {
 .padding-Text-contat {
 padding-top: 3rem;
 padding-left: 0;
+}
+
+.bottom-rosa {
+  background-color:#FF69B4;
+}
+
+.border-rosa {
+  border-color: #f90297;
+}
+
+.fontcolor-rosa {
+  color:  #f90297;
 }
