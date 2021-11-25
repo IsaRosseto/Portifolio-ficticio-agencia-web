@@ -20,6 +20,9 @@
     <script src="assets\js\bootstrap.bundle.min.js">
     </script>
 
+<!-- ReCaptcha-->
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
 </head>
 
 <body>
@@ -243,7 +246,7 @@
       <br>
       <label class="form-label" for="emailAddress" id="label-email">E-mail</label>
       <br>
-      <input class="form-control" type="email" id="emailAddress" placeholder="Digite seu e-mail aqui">
+      <input class="form-control" type="email" id="emailAddress" placeholder="Digite seu e-mail aqui" onblur="validacaoEmail(contato.Email)">
       <br>
       <br>
       <label class="form-label" for="subject-title" id="label-s-title">Assunto</label>
@@ -255,11 +258,12 @@
       <textarea class="form-control" name="mensagem" id="mensagem" rows="5" cols="50" form="contact-form"
         placeholder="Insira seu texto aqui"></textarea>
       <br><br>
-      <button class="btn btn-primary btn-lg" >
+      <button class="btn btn-primary btn-lg " onclick="validaFormulario" >
         Enviar
       </button>
     </form>
   </div>
+
     <div id="dados-contato" class="p-5 align-self-stretch ">
       <h1>Dados de Contato </h1>
       <p>
